@@ -1,7 +1,9 @@
+/* ====================== Grid configuration ====================== */
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 .row {
     display: flex;
@@ -9,12 +11,14 @@
     flex-wrap: wrap;
 }
 
+
 .column {
     flex-basis: 100%;
 }
 
+
 @media screen and (min-width: 800px) {
     .column {
-      flex: 1;
+      flex: 0.12;
     }
 }
