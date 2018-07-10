@@ -1,6 +1,6 @@
 var staticCacheName = 'rev-restaurant-static-v1'
 
-self.addEventListener('install', function (event) {
+this.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(staticCacheName).then((cache) => {
       return cache.addAll([
@@ -28,7 +28,7 @@ self.addEventListener('install', function (event) {
   )
 })
 
-self.addEventListener('activate', function (event) {
+this.addEventListener('activate', function (event) {
   event.waitUntil(
     caches.keys().then(function (cacheNames) {
       Promise.all(
@@ -43,17 +43,10 @@ self.addEventListener('activate', function (event) {
   )
 })
 
-self.addEventListener('fetch', function (event) {
-  event.waitUntil(
-    caches.keys().then(function (cacheNames) {
-      Promise.all(
-        cacheNames.filter(function (cacheName) {
-          return cacheName.startsWith('rev-restaurant-static-') &&
-                           cacheName != staticCacheName
-        }).map(function (cacheName) {
-          return caches.delete(cacheName)
-        })
-      )
+this.addEventListener('fetch', function (event) {
+  event.respondWith(
+    new Response('Hello <b>World</b>', {
+      headers: {'Content-Type': 'text/html'}
     })
   )
 })
