@@ -4,6 +4,7 @@ this.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(staticCacheName).then((cache) => {
       return cache.addAll([
+        '/',
         '/css/grid.css',
         '/css/styles.css',
         '/img/1.jpg',
@@ -20,7 +21,6 @@ this.addEventListener('install', function (event) {
         '/js/dbhelper.js',
         '/js/main.js',
         '/js/restaurant_info.js',
-        '/index.html',
         '/restaurant.html'
         // Preciso fazer o cache do arquivo sw?
       ])
@@ -43,10 +43,10 @@ this.addEventListener('activate', function (event) {
   )
 })
 
-this.addEventListener('fetch', function (event) {
+this.addEventListener('fetch', function(event) {
   event.respondWith(
-    new Response('Hello <b>World</b>', {
-      headers: {'Content-Type': 'text/html'}
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
     })
-  )
-})
+  );
+});

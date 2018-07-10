@@ -302,15 +302,15 @@ label {
 
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
+  height: 10%;
   right: 0;
   top: 80px;
-  width: 50%;
+  width: 10%;
 }
 
 
 .inside #map {
+  position: absolute;
   background-color: #ccc;
   height: 100%;
   width: 100%;
