@@ -299,7 +299,7 @@ label {
 
 
 .inside #map-container {
-  background: blue none repeat scroll 0 0;
+  background: #F3F3F3 none repeat scroll 0 0;
   right: 0;
   top: 80px;
   width: 100%;
@@ -311,6 +311,15 @@ label {
 }
 
 @media (min-width: 800px) {
+
+  .inside #map-container {
+    background: #F3F3F3 none repeat scroll 0 0;
+    padding-right: 40px;
+    right: 0;
+    top: 80px;
+    width: 100%;
+  }
+
   .inside #map {
     background-color: #ccc;
     height: 100%;
@@ -365,7 +374,16 @@ label {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+@media (min-width: 800px) {
+  #restaurant-container, #reviews-container {
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding: 140px 40px 30px;
+  }
 }
 
 

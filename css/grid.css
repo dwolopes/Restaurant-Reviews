@@ -21,4 +21,16 @@
     .column {
       flex: 1;
     }
+
+    label.column{
+        flex: 0.12;
+    }
+
+    select.column{
+        flex: 0.12;
+    }
+
+    select.column{
+        flex: 0.12;
+    }
 }
