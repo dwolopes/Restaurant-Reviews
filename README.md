@@ -1,32 +1,88 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews
 
-## Project Overview: Stage 1
+This project presents a responsive and accessible web app of restaurant reviews. And besides the reviews,The address and locations on map of the selected restaurant is shown on New York city map and its opening hours. The goal of this project is to show how to implement grid using just CSS thus have responsive web pages, making the page accessible for everyone, a screenreader can be used to navigate through the page and build a offline first app using service workers.
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+## Demo
 
-### Specification
+> [Check it live](https://dwolopes.github.io/Restaurant-Reviews/).
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+## Getting Started
 
-### What do I do from here?
-
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
-
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
-
-## Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 
+1. Clone project:
 
+    ```
+    $ [sudo] git clone git@github.com:https://github.com/dwolopes/Restaurant-Reviews.git
+
+2. Serve the application:
+
+    ```
+    $ [sudo] python -m SimpleHTTPServer
+    ```
+3. Open the game:
+
+    ```
+    $ open "http://localhost:8000"
+    ```
+
+### Installing
+
+In order to run the webapp locally, consider install:
+
+    Python 3
+
+> [Download Python Windows](https://www.python.org/downloads/windows/).
+
+> [Download Python Mac OS X](https://www.python.org/downloads/mac-osx/).
+
+> [Download Python Other platforms](https://www.python.org/download/other/).
+
+In order to run and test accessibility, install:
+
+1. Google Chrome:
+
+> [Download Python Windows](https://www.google.com.br/chrome/index.html).
+
+2. Chrome Vox, a Chrome screenreader:
+
+> [Download Python Windows](http://www.chromevox.com/installing.html).
+
+
+## Running the tests
+
+1. To test the Responsive Web Design:
+
+Use Chrome Web Tools (F12) running the application locally(using Google Chrome Browser) and then click on the cell phone image on the top left of the console opened.
+
+2. To test the acessibility:
+
+Run the Chromevox extension and navigate in the app.
+
+3. To test offline first functionality:
+
+Use Chrome Web Tools (F12) running the application locally(using Google Chrome Broswer) and then click in the aplication menu, following it, click on Service Work engine and then select the Offline option and reload the page.
+
+
+> [Click here to know more about Chrome DEv Tools](https://developers.google.com/web/tools/chrome-devtools/)
+
+## Built With
+
+* [JavaScript](https://www.javascript.com/) - The main programming language used
+* HTML
+* CSS
+
+## Contributing
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details
+
+## Authors
+
+* **Douglas Lopes** - *Initial work* - [Douglas Lopes](https://github.com/dwolopes)
+
+See also the list of [contributors](https://dwolopes.github.io/Fliperama-Game/) who participated in this project.
