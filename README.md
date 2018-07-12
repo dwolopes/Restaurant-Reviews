@@ -52,20 +52,20 @@ In order to run and test accessibility, to install:
 
 ## Running the tests
 
-###To test the Responsive Web Design:
+### To test the Responsive Web Design:
 
 Use Chrome Web Tools (F12) running the application locally(using Google Chrome Browser) and then click on the cell phone image on the top left of the console opened.
 
-###To test the acessibility:
+### To test the acessibility:
 
 Run the Chromevox extension and navigate in the app.
 
-###To test offline first functionality:
+### To test offline first functionality:
 
 Use Chrome Web Tools (F12) running the application locally(using Google Chrome Broswer) and then click in the aplication menu, following it, click on Service Work engine and then select the Offline option and reload the page.
 
 
-###> [Click here to know more about Chrome DEV Tools](https://developers.google.com/web/tools/chrome-devtools/)
+### > [Click here to know more about Chrome DEV Tools](https://developers.google.com/web/tools/chrome-devtools/)
 
 ## Built With
 
