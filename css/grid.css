@@ -17,6 +17,7 @@
 }
 
 
+/*Inserting breakponts according to the element and its positioning on the page */
 @media screen and (min-width: 800px) {
     .column {
       flex: 1;

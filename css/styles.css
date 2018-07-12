@@ -103,9 +103,10 @@ nav h1 {
   margin: auto;
 }
 
+/*Guarantee a max contrast between the links on map and the map itself*/
 .leaflet-container a {
-  color: #00567a;
-  background-color: #f0f0f0;
+  color: #00567a !important;
+  background-color: #f0f0f0 !important;;
 }
 
 nav h1 a {
@@ -210,6 +211,7 @@ label {
 }
 
 
+/* Adapting better according to the size of the screen the restaurats thumbnails*/
 #restaurants-list li {
   background-color: #fff;
   border: 2px solid #ccc;
@@ -306,6 +308,7 @@ label {
 }
 
 
+/*Adapting map on different types os screens*/
 .inside #map {
   background-color: #ccc;
 }
