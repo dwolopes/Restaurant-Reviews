@@ -150,7 +150,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant (restaurant) {
-    return (`/img/${restaurant.photograph}`)
+    return (`https://github.com/dwolopes/Restaurant-Reviews/tree/master/img/${restaurant.photograph}`)
   }
 
   /**
