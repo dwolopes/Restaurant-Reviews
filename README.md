@@ -2,10 +2,6 @@
 
 This project presents a responsive and accessible web app of restaurant reviews. And besides the reviews,The address and locations on map of the selected restaurant is shown on New York city map and its opening hours. The goal of this project is to show how to implement grid using just CSS thus have responsive web pages, making the page accessible for everyone, a screenreader can be used to navigate through the page and build a offline first app using service workers.
 
-## Demo
-
-> [Check it live](https://dwolopes.github.io/Restaurant-Reviews/).
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
