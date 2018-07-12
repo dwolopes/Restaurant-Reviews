@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone project:
 
     ```
-    $ [sudo] git clone git@github.com:https://github.com/dwolopes/Restaurant-Reviews.git
+    $ [sudo] git clone git@github.com: https://github.com/dwolopes/Restaurant-Reviews.git
 
 2. Serve the application:
 
@@ -29,7 +29,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-In order to run the webapp locally, consider install:
+In order to run the webapp locally, consider to install:
 
     Python 3
 
@@ -39,7 +39,7 @@ In order to run the webapp locally, consider install:
 
 > [Download Python Other platforms](https://www.python.org/download/other/).
 
-In order to run and test accessibility, install:
+In order to run and test accessibility, to install:
 
 1. Google Chrome:
 
@@ -52,20 +52,20 @@ In order to run and test accessibility, install:
 
 ## Running the tests
 
-1. To test the Responsive Web Design:
+###To test the Responsive Web Design:
 
 Use Chrome Web Tools (F12) running the application locally(using Google Chrome Browser) and then click on the cell phone image on the top left of the console opened.
 
-2. To test the acessibility:
+###To test the acessibility:
 
 Run the Chromevox extension and navigate in the app.
 
-3. To test offline first functionality:
+###To test offline first functionality:
 
 Use Chrome Web Tools (F12) running the application locally(using Google Chrome Broswer) and then click in the aplication menu, following it, click on Service Work engine and then select the Offline option and reload the page.
 
 
-> [Click here to know more about Chrome DEv Tools](https://developers.google.com/web/tools/chrome-devtools/)
+###> [Click here to know more about Chrome DEV Tools](https://developers.google.com/web/tools/chrome-devtools/)
 
 ## Built With
 
@@ -85,4 +85,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.
 
 * **Douglas Lopes** - *Initial work* - [Douglas Lopes](https://github.com/dwolopes)
 
-See also the list of [contributors](https://dwolopes.github.io/Fliperama-Game/) who participated in this project.
+See also the list of [contributors](https://github.com/dwolopes/Restaurant-Reviews/graphs/contributors) who participated in this project.
